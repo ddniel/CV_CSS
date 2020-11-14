@@ -1,0 +1,155 @@
+/*Esto es para eliminar el margen por defecto y que se pinte todo el div*/
+body{
+	margin: 0;
+	text-align: center; /*Centra todo en el Body q no tenga un width independiente*/
+	font-family: 'Merriweather', serif;
+}
+h1{
+	color: #3f72af;
+	font-size: 5.5rem; /*16px = 100% = 1em*/
+	font-family: 'Sacramento', cursive;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+h2{
+	color: #3f72af;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2rem;
+	font-weight: normal;
+	padding-bottom: 10px;
+
+}
+h3{
+	color: #112d4e;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+hr{
+	margin: 100px auto;
+	border-style: none;
+	border-top-style: dotted;
+	border-color: #EAF6F6;
+	border-width: 5px;
+	width: 5%;
+}
+
+p{
+	color: #40514E;
+	line-height: 2;
+}
+
+.skill-row{
+	width: 50%;
+	margin: 100px auto 100px auto;
+	text-align: left;
+}
+
+.top-container{
+	background-color: #f9f7f7;
+	position: relative;
+	padding-top: 50px;
+}
+.middle-container{
+	margin: 80px 0;
+
+}
+.bottom-container{
+	background-color: #3f72af;
+	padding: 50px 0 20px;
+}
+
+.top-cloud{
+	position: absolute;
+	right: 200px;
+	top: 50px;
+	width: 15%;
+}
+.bottom-cloud{
+	position: absolute;
+	left: 150px;
+	bottom: 300px;
+	width: 15%;
+}
+.city-image{
+	width: 50%;
+}
+
+.profile-image{
+	width: 25%;
+	margin-top: 10px;
+}
+
+.intro{
+	width: 30%;
+	margin: auto;
+}
+.skills-image{
+	width: 25%;
+	float: left; /*Flotar a la izquierda*/
+	margin-right: 30px;
+}
+.guitar-image{
+	width: 25%;
+	float: right; 
+	margin-left: 30px;
+}
+
+.contact-message{
+	width: 40%;
+	margin: 40px auto 60px;
+}
+
+a{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	margin: 10px 20px;
+	text-decoration: none;
+}
+a:hover{      /*Para cuando pasan el mouse por encima*/
+	color: black;
+}
+
+.copyright{
+	font-size: 0.75rem;
+	padding-top: 20px;
+}
+
+
+
+.btn{
+   background: #3D94F6;
+   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+   -webkit-border-radius: 48px;
+   -moz-border-radius: 48px;
+   border-radius: 48px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 18px;
+   font-weight: 200;
+   padding: 12px;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
